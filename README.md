@@ -8,7 +8,7 @@ Site institucional em HTML/CSS/JS puro (sem build), Sarandi-PR. Desenvolvido pel
 Início, Sobre, Modalidades, Planos, Contato + Política de Privacidade e Termos de Uso.
 
 ## Estrutura
-- `public/` — site completo (HTML, `css/`, `js/`, `images/`, `robots.txt`, `sitemap.xml`, `_headers`, `404.html`)
+- `public/` — site completo (HTML, `css/`, `js/`, `images/`, `robots.txt`, `_headers`, `404.html`)
 - `wrangler.jsonc` — configuração de deploy (assets estáticos)
 - `deploy.bat` — envia as alterações ao GitHub
 
@@ -18,6 +18,5 @@ Início, Sobre, Modalidades, Planos, Contato + Política de Privacidade e Termos
 - (Cloudflare Pages: output directory `public`, sem build command)
 
 ## Pendências
-- Substituir `https://SEU-DOMINIO.com.br` pelo domínio final em todos os HTML, `sitemap.xml` e `robots.txt`.
 - Validar fotos reais, texto "Sobre", horário de domingo e revisão jurídica das páginas legais.
 - Lighthouse ainda não medido.
