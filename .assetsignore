@@ -1,0 +1,8 @@
+.git
+.gitignore
+.assetsignore
+README.md
+deploy.bat
+wrangler.jsonc
+node_modules
+.wrangler
