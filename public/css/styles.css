@@ -438,3 +438,5 @@ address { font-style: normal; }
 }
 .reveal.h100 { height: 100%; }
 .card-mod, .plan { height: 100%; }
+.footer-bottom a.credit { font-weight: 500; color: var(--text); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(255,255,255,.3); }
+.footer-bottom a.credit:hover { color: var(--yellow); text-decoration-color: var(--yellow); }
