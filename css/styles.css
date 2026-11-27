@@ -440,3 +440,30 @@ address { font-style: normal; }
 .card-mod, .plan { height: 100%; }
 .footer-bottom a.credit { font-weight: 500; color: var(--text); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(255,255,255,.3); }
 .footer-bottom a.credit:hover { color: var(--yellow); text-decoration-color: var(--yellow); }
+
+/* Planos: 4 valores + Gympass */
+.plans { display: grid; gap: 1.25rem; grid-template-columns: 1fr; }
+@media (min-width: 640px) { .plans { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1100px) { .plans { grid-template-columns: repeat(4, 1fr); } }
+.plan-sm { padding: 1.75rem; }
+@media (min-width: 640px) { .plan-sm { padding: 2rem; } }
+.plan.plan-sm h3 { margin-top: 1rem; font-size: 2.25rem; }
+.plan-sm .price { margin-top: 1rem; flex-wrap: wrap; }
+.plan-sm .price .val { font-size: 3.25rem; }
+.plan-sm .price .from { font-size: 2rem; padding-bottom: 0.5rem; }
+.plan-sm .checks { margin-top: 1.25rem; font-size: 0.95rem; }
+.plan-sm .btn { margin-top: auto; }
+.plan-sm .checks { margin-bottom: 1.5rem; }
+.plan-gym { flex-direction: column; gap: 1.5rem; padding: 1.75rem; }
+@media (min-width: 768px) { .plan-gym { flex-direction: row; align-items: center; justify-content: space-between; } .plan-gym .btn { margin-top: 0 !important; flex-shrink: 0; } }
+.plan-gym h3 { margin-top: 0.75rem; font-size: 2.25rem; }
+.mt-6 { margin-top: 1.5rem; }
+.plans { grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 640px) { .plans { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1100px) { .plans { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.plan.plan-sm h3 { font-size: 2rem; line-height: 1; }
+.plan-sm .price { flex-wrap: nowrap; align-items: baseline; gap: 0.4rem; }
+.plan-sm .price .val { font-size: 2.75rem; white-space: nowrap; }
+.plan-sm .price .from { font-size: 1.5rem; padding-bottom: 0; }
+.plan-sm .tag { font-size: 0.7rem; letter-spacing: 0.08em; }
+.plan-sm .btn { padding-left: 1rem; padding-right: 1rem; font-size: 0.9rem; white-space: nowrap; justify-content: center; }

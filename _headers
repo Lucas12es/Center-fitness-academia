@@ -5,10 +5,10 @@
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 
 /css/*
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=86400
 
 /js/*
-  Cache-Control: public, max-age=0, must-revalidate
+  Cache-Control: public, max-age=86400
 
 /images/*
   Cache-Control: public, max-age=2592000
